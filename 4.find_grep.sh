@@ -2,7 +2,7 @@
 # r:지정된 모든 디렉토리내에서 검사하는 옵션
 # n:라인수까지 출력하는 옵션
 # i:대소문자 구분하지 말고
-grep -rn "hello" .
+grep -rni "hello" .
 
 #find : 이름으로 파일 또는 디렉토리 찾기
 find . -name "*.txt"
